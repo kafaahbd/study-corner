@@ -13,9 +13,9 @@ const Navbar: React.FC = () => {
       <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/80 dark:bg-gray-900/80 border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <Link to="/" className="flex-shrink-0">
+            <a href='https://kafaahbd.github.io/kafaahbd/' target='_blank' className="flex-shrink-0">
               <img src="https://raw.githubusercontent.com/kafaahbd/kafaah/refs/heads/main/pics/kafaah.png" alt="Kafa'ah" className="h-10 w-auto" />
-            </Link>
+            </a>
             <div className="flex items-center space-x-4">
               <LanguageToggle />
               <ThemeToggle />
